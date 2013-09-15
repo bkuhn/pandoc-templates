@@ -7,6 +7,7 @@
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[mathletters]{ucs}
   \usepackage[utf8]{inputenc}
 $if(euro)$
   \usepackage{eurosym}
